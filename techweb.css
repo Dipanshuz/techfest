@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+}
+.container-fluid {
+    background-color: pink;
+    color: black;
+    font-family: Infrared;
+}
+.headerf {
+    position : fixed;
+    width: 100%;
+    height: fit-content;
+    background-color: cornflowerblue;
+}
+li {
+    display: inline-block;
+}
+.section-1 {
+    
+}
+.boxone {
+    height: 280px;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    color: darkgray;
+}
+.heading {
+    text-align: center;     
+    height: 600px;
+    font-family: Tilt prism;
+}
+@font-face {
+    font-family: "Tilt prism";
+    src: url("assets/myfont.ttf") format("truetype");
+  }
+@font-face {
+    font-family: Infrared;
+    src: url("assets/Infra.ttf") format("truetype");
+}
+  .bigone{
+    height: 1000px;
+  }
+.clearer {
+    height: 40px;
+}
+.parda {
+    height: 5000px;
+    width: 100%;
+    background: #666;
+    padding: 40px;
+    transition-duration: 5s;
+  }
+
+.parda:active {
+    transition: translateX(200%);
+}
